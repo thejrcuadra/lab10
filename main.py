@@ -42,7 +42,7 @@ def countVowelsConsonants(userInput, index=0, vowelCount=0, consonantCount=0):
     # recurssion
     return countVowelsConsonants(userInput, index + 1, vowelCount, consonantCount)
 
-#main function with the input and the display
+# main. user input + conditions for output
 def main():
     userInput = input("Enter a string: ")
 
